@@ -1,6 +1,5 @@
 package com.consumeSoap1.controller;
 
-import java.io.ByteArrayInputStream;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.JsonMappingException;
@@ -29,12 +28,7 @@ public class Controller {
 	@Autowired
 	com.consumeSoap1.service.MyService myService;
 
-	RestTemplate restTemplate = new RestTemplate();
 
-	@Autowired
-	public Controller(RestTemplateBuilder builder) {
-		this.restTemplate = builder.build();
-	}
 
 	HttpHeaders headers = new HttpHeaders();
 

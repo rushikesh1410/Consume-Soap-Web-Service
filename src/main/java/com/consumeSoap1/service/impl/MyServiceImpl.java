@@ -10,8 +10,6 @@ import com.consumeSoap1.output.Response;
 @Service
 public class MyServiceImpl implements MyService {
 
-	
-
 	Response Response = new Response();
 	
     Calculator calculator = new Calculator();
