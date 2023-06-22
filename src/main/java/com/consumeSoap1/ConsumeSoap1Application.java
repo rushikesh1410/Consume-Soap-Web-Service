@@ -1,4 +1,4 @@
-package com.consumeSoap1;
+	package com.consumeSoap1;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,5 +9,5 @@ public class ConsumeSoap1Application   {
 	public static void main(String[] args) {
 		SpringApplication.run(ConsumeSoap1Application.class, args);
 	}
-
+	
 }
